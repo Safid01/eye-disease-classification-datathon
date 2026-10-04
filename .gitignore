@@ -1,0 +1,28 @@
+# Python & Environment
+.venv/
+env/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Datasets (Large Files)
+train/
+test/
+data_384/
+*.jpg
+*.jpeg
+*.png
+
+# Model Checkpoints & Large Artifacts (>100MB)
+checkpoints/
+*.pth
+*.pt
+*.bin
+*.onnx
+*.npy
+
+# Logs & Temporary Files
+*.log
+.ipynb_checkpoints/
+scratch/
